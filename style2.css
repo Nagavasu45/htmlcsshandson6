@@ -1,0 +1,149 @@
+.main{
+  /* border-style:ridge;
+  border-width: 10px;
+  border-top-color:white;
+  border-left-color: orange;
+  border-right-color: green; */
+  
+ 
+  
+  background-image:url('./sky.jpg');
+  background-size: cover;
+  background-position: center;
+  overflow-x: hidden;
+  position: relative;
+  height:100vh;
+  width: 100%;
+  
+}
+*{
+  margin: 0px;
+  padding: 0px;
+}
+.one{
+  
+  margin-left: 550px;
+  background-color:orange;
+  color: black;
+  font-size: 30px;
+  
+}
+.two{
+  margin-left: 5px;
+  background-color:white;
+  color: black;
+  font-size: 30px;
+}
+.three{
+  margin-left: 5px;
+  background-color:green;
+  color: black;
+  font-size: 30px;
+}
+.four{
+  width: 500%;
+  height: 200px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  display: block;
+  position: absolute;
+  z-index: 1;
+  animation: m1 5s linear infinite;
+  background-image: url('./road.jpg');  
+  background-repeat: repeat-x;
+}
+@keyframes m1{
+  100%{
+    transform: translateX(-5000px);
+  }
+}
+.five{
+  height: 200px;
+  width: 500%;
+  background-image: url('./city.png');
+  left: 0;
+  right: 0;
+  bottom: 200px;
+  display: block;
+  z-index: 1;
+  background-repeat: repeat-x;
+  animation: m2 20s linear infinite ;
+  position: absolute;
+
+}
+@keyframes m2{
+  100%{
+    transform: translateX(-1400px);
+  }
+}
+.six{
+  width:400px;
+  left:50%;
+  bottom: 100px;
+  transform: translateX(-50%);
+  position: absolute;
+  z-index:2;
+}
+.six img{
+  width: 100%;
+  animation:  m3 1s linear infinite;
+}
+@keyframes m3{
+  100%{
+    transform: translateY(-1px);
+  }
+  50%{
+    transform: translateY(1px);
+  }
+  0%{
+    transform: translateY(-1px);
+  }
+}
+.seven{
+  left :50%;
+  bottom: 178px;
+  transform:translateX(-50%);
+  position: absolute;
+  z-index:2;
+
+}
+.seven img{
+  width: 73px;
+  height: 73px;
+  animation:wheel 1s linear infinite ;
+}
+.w1{
+  left: -165px;
+  position: absolute;
+}
+.w2{
+  left: 80px;
+  position: absolute;
+}
+@keyframes wheel{
+  100%{
+    transform:rotate(360deg);
+  }
+}
+.f1 img{
+  height: 100px;
+  width: 100px;
+
+}
+.sun{
+  left: 1000px;
+  
+  position: absolute;
+}
+.f2 img{
+  height: 150px;
+  width: 100px;
+
+}
+.flag{
+  left: 780px;
+  top: 330px;
+  
+  position: absolute;
+}

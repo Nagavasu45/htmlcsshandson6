@@ -1,0 +1,66 @@
+h1{
+    text-align: center;
+}
+.one{display: flex;
+    justify-content: center;
+}
+body{
+  
+    background-color: yellow;
+}
+.two{   
+    transition-timing-function: linear;
+    
+}
+.four{
+    transition-timing-function: ease;
+}
+.five{
+    transition-timing-function: ease-in;
+}
+.six{
+    transition-timing-function: ease-out;
+}
+.seven{
+    transition-timing-function: ease-in-out;
+}
+div#two:hover {
+    width: 300px;
+  }
+div#three:hover {
+    width: 300px;
+    height: 300px;
+  }
+  div#four:hover {
+    width: 300px;
+    
+  }
+  div#five:hover {
+    width: 300px;
+    
+  }
+  div#six:hover {
+    width: 300px;
+    
+  }
+  div#seven:hover {
+    width: 300px;
+    
+  }
+  div#eight:hover {
+    width: 300px;
+    
+  }
+.r1{
+    width: 100px;
+    height: 100px;
+    background-color:green;
+    
+    transition: all,2s;
+    margin-top: 30px;
+  }
+  .h1{
+    margin-left: 48%;
+  }
+ 
+  

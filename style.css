@@ -1,0 +1,148 @@
+.one{
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+}
+body{
+    background-color: yellow;
+}
+h1{
+    text-align: center;
+}
+.main{
+    display: flex;
+     align-items: center;
+    justify-content:space-around; 
+}
+.two{
+  background-color: #7987d3c0;
+  height: 100px;
+  width: 100px;
+  transform: skew(20deg);
+  
+ 
+  margin-right: 30px;
+  margin-left: 30px;
+  animation: shake 2s infinite;
+  animation-direction: alternate;
+    
+}
+@keyframes shake{
+    0% {
+        transform: skewX(20deg);
+      }
+      100% {
+        transform: skewX(-20deg);
+      }
+    
+}
+.three{
+    background-color: #aaaaaa;
+    height: 100px;
+    width: 100px;
+    transform: skew(20deg);
+    
+    margin-top: 30px;
+    margin-right: 30px;
+    margin-left: 30px;
+    animation: shake1 2s infinite;
+    animation-direction: alternate;
+      
+  }
+  @keyframes shake1{
+      0% {
+          transform: skewY(20deg);
+        }
+        100% {
+          transform: skewY(-20deg);
+        }
+      
+  }
+  .four{
+    background-color: #4c8aad;
+    height: 100px;
+    width: 100px;
+    transform:rotate(360deg);
+    
+    margin-top: 30px;
+    margin-right: 30px;
+    margin-left: 30px;
+    animation: shake2 2s infinite;
+    animation-direction:normal;
+      
+  }
+  @keyframes shake2{
+      0%{
+          transform: rotate(0deg);
+        }
+         100% {
+          transform: rotate(360deg);
+        } 
+      
+  }
+  .five{
+    background-color: #4c8aad;
+    height: 100px;
+    width: 100px;
+    transform:rotate(360deg);
+    
+    margin-top: 30px;
+    margin-right: 30px;
+    margin-left: 30px;
+    animation: shake3 2s infinite;
+    animation-direction:alternate;
+      
+  }
+  @keyframes shake3{
+      0%{
+          transform: rotateX(0deg);
+        }
+         100% {
+          transform: rotateX(50deg);
+        } 
+      
+  }
+  .six{
+    background-color: #af7373;
+    height: 100px;
+    width: 100px;
+    transform:rotateY(30deg);
+    
+    margin-top: 30px;
+    margin-right: 30px;
+    margin-left: 30px;
+    animation: shake5 2s infinite;
+    animation-direction:alternate;
+      
+  }
+  @keyframes shake5{
+      0%{
+          transform: rotateY(0deg);
+        }
+         100% {
+          transform: rotateY(70deg);
+        } 
+      
+  }
+  .seven{
+    background-color:green;
+    height: 100px;
+    width: 100px;
+    transform:rotateZ(360deg);
+    
+    margin-top: 30px;
+    margin-right: 30px;
+    margin-left: 30px;
+    animation: shake6 2s infinite;
+    animation-direction:alternate;
+      
+  }
+  @keyframes shake6{
+      0%{
+          transform: rotateZ(0deg);
+        }
+         100% {
+          transform: rotateZ(100deg);
+        } 
+      
+  }
